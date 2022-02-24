@@ -1,0 +1,23 @@
+@keyframes titleMoveUp
+{
+    from {opacity: 0; transform: rotate(10deg) translateX(50px) translateY(200px) scale(0.8);}
+    to   {opacity: 1; transform: translateY(0%);}
+}
+
+@keyframes titleMoveDown
+{
+    from {opacity: 0; transform: rotate(-30deg) translateX(-50px) translateY(-200px) scale(1.5);}
+    to   {opacity: 1; transform: translateY(0%);}
+}
+
+@keyframes cursorHover
+{
+    from {border: 2px solid white;background: rgba(255, 255, 255, 0.50);}
+    to   {border: 7px solid white; width: 40px; height: 40px; background: rgba(255, 255, 255, 0.40); }
+}
+
+@keyframes cursorLeave
+{
+    from {border: 7px solid white; width: 40px; height: 40px; background: rgba(255, 255, 255, 0.40);}
+    to   {border: 2px solid white;background: rgba(255, 255, 255, 0.50);}
+}
